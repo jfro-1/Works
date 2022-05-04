@@ -26,7 +26,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    background: #dedede;
+    background: #ffffff;
     color: rgb(0, 0, 0);
     padding: 20px 30px;
   }
@@ -69,7 +69,7 @@ ul {
       color: #000;
     }
     .navigation-container {
-      background: #dedede;
+      background: #ffffff;
       display: flex;
       flex-wrap: wrap;
       align-items: center;
