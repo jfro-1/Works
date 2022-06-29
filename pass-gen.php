@@ -15,9 +15,38 @@ if (isset($_POST['generate'])) {
     $generated_mixed = substr(str_shuffle($mixed), 2, 8);
 }
 ?>
-<form action="index.php" method="POST">
-    <input type="submit" name="generate" value="Generate">
-    <br>
 
-    <?php echo '<h3>' . $mixed . '</h3>' ?>
-</form>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+    * {
+        background-color: cyan;
+    }
+
+    .genr-form {
+        display: flex;
+        justify-content: center;
+        border: 2px solid black;
+        margin-top: 20%;
+    }
+    </style>
+    <div class="genr-form">
+        <form action="index.php" method="POST">
+            <input type="submit" name="generate" value="Generate">
+            <br>
+
+            <?php echo '<h3>' . $mixed . '</h3>' ?>
+        </form>
+    </div>
+</body>
+
+</html>
