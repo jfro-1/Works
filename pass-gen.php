@@ -3,6 +3,13 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 ?>
+// header("Location:index.php");
+// echo "<script language='javascript'>
+";
+// //echo 'alert("Your alert msg");';
+// echo 'window.location.replace("index.php");';
+// echo "
+</script>";
 <?php
 if (isset($_POST['generate'])) {
     $uppr_case = "ABCDEFGHIJKLMNOPQRSTUWXYZ";
